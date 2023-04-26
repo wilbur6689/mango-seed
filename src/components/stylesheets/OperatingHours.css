@@ -1,0 +1,34 @@
+.operating-hours-container {
+    text-align: center;
+    font-size: calc(1px + 2vmin);
+  }
+  
+  .operating-hours-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .operating-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .operating-hours-day {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .operating-hours-day:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .operating-hours-day p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }

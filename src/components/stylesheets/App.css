@@ -35,6 +35,42 @@
   color: black;
 }
 
+.about-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: calc(10px + 2vmin);
+}
+
+.about-section {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  width: 100%;
+  text-align: left;
+}
+
+.teacher {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.teacher img {
+  margin-right: 1rem;
+  max-width: 200px;
+}
+
+.teacher-info {
+  flex: 1;
+  text-align: justify;
+}
+
 .App-link {
   color: #61dafb;
 }
