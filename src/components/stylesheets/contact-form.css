@@ -1,0 +1,103 @@
+.contact-form-container {
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container h2 {
+    margin-bottom: 20px;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    text-align: center;
+    color: #1f1f1f;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: calc(12px + 0.5vmin);
+    font-weight: bold;
+    color: #1f1f1f;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: calc(12px + 0.5vmin);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    font-size: calc(12px + 0.5vmin);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-select:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-comment {
+    width: 100%;
+    padding: 10px;
+    font-size: calc(12px + 0.5vmin);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    resize: none;
+    height: 150px;
+  }
+  
+  .form-comment:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-submit {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: calc(12px + 0.5vmin);
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: #ffffff;
+    color: #1f1f1f;
+  }
+  
+  .form-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .form-submit:disabled:hover {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+  
+  .error {
+    color: red;
+    font-size: calc(12px + 0.5vmin);
+    margin-top: 5px;
+  }
+  

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+import '../stylesheets/App.css';
 
 class Home extends React.Component {
   render() {
@@ -7,6 +7,7 @@ class Home extends React.Component {
       <div className="wrapper">
         <body className='App-body'>
           <p>This is the home page where everyone is happy</p>
+          <p>I will be developing this page further with more Information soon!</p>
         </body>
       </div>
     );

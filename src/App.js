@@ -1,4 +1,4 @@
-import './App.css';
+import './components/stylesheets/App.css'
 import React, { Component } from 'react';
 import { BrowserRouter, Link } from "react-router-dom" 
 import MyRoutes from './components/routes/Routes';
